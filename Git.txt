@@ -1,0 +1,54 @@
+--------------- Start working with Git ---------------------
+- open the Git bash in location where we want.
+- git init : this will create .git folder, which is hidden 
+- Note : use this command once in one folder to create this folder ( if there is no .git folder then only use again).
+
+- to check the username  = git config user.name
+- set username = git config user.name Anurag
+- to check the email  = git config user.email
+- set useremail = git config user.email anuragshastri2001@gmail.com
+
+There are 3 areas of Git.  
+1. working area
+2. staging area
+3. repository rea 
+
+- git status =  it shows the status of file 
+   1. if it in red colour its in working area.
+- git add file name = to move thie file in staging area we use this command.
+   1. if it in green colour its in staging area.
+- after modifying the file and we check the status it shows the modified status and in red colour.
+- git add . = it redirect to the staging area.
+- git commit - m "any message" = to save the changes.
+- git log = it shows the logs in detailed after commited the anything.
+- git restore file_name = to delete the new added file.
+- git diff file_name = if we change the file content then it shows the previous original content in red colour with - symbol and newly added text which we have replaced with old it shows in green colour with + symbol.
+- git mv new_file.txt old_file.txt =  to rename the file name.( it will rename)
+- mv old_file.txt new_file.txt = it will rename the file name ( but shows the status deleted).
+
+
+
+Branches - 
+
+- git branch newbranch( new branch)
+- git checkout -b newbranch (create and switch to new branch)
+- git branch (shows branches)
+- git checkout newbranch(switch to new branch)
+- vi new_filename  = to create new file in git 
+- after gong to new file press i to insert and then write anything which you want and to close use below command
+- ctrl + C + :wq
+
+- To delete the branch
+
+Note : 
+1.If we not coommit in the master branch and switch to the new branch the uncomited files will be copy to the new branch.
+
+2.If after new branch is created then but if we hit git branch nothing is showing then first you need to commit in the master branch then      you can create the new branch
+
+
+git merge newbranch = it will merge the file to master file.
+
+git branch -m new_branch =  to rename the branch name ( enter the new name which you want).
+
+
+
